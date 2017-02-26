@@ -40,7 +40,7 @@ module.exports = function (config) {
 			subdir: './coverage/lcovonly'
 		},
  		cobertura: {
-			subdir: './shippable/coverage/'
+			subdir: './shippable/codecoverage/'
 		}
       }
       fixWebpackSourcePaths: true
