@@ -19,6 +19,7 @@ install:
   - npm install -g npm@latest
   - npm install -f -g @angular/cli@latest
   - npm install --save-dev @angular/cli@latest
+  - npm install --save-dev karma-junit-reporter
   - npm install
   
 
