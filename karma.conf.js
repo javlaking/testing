@@ -42,7 +42,7 @@ module.exports = function (config) {
  		cobertura: {
 			subdir: './shippable/codecoverage/'
 		}
-      }
+      },
       fixWebpackSourcePaths: true
     },
     angularCli: {
