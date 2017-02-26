@@ -26,7 +26,7 @@ module.exports = function (config) {
       'text/x-typescript': ['ts','tsx']
     },
  	  junitReporter: {
-	    outputDir: 'testresults', // results will be saved as $outputDir/$browserName.xml
+	    outputDir: 'shippable/testresults', // results will be saved as $outputDir/$browserName.xml
       outputFile: 'test.xml', // if included, results will be saved as $outputDir/$browserName/$outputFile
       suite: '', // suite will become the package name attribute in xml testsuite element
       useBrowserName: true, // add browser name to report and classes names
