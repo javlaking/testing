@@ -47,7 +47,7 @@ module.exports = function (config) {
           file: './coverage/lcov.info'
 		    },
  		    cobertura: {
-          file: './shippable/coverage/coverage.xml'
+          file: './shippable/codecoverage/coverage.xml'
 		    }
       },
       fixWebpackSourcePaths: true
