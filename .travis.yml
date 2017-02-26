@@ -15,6 +15,8 @@ services:
 before_install:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
 install:
   - npm install -g npm@latest
   - npm install -f -g @angular/cli@latest
