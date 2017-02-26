@@ -1,4 +1,4 @@
-# Testing
+# Testing [![Run Status](https://api.shippable.com/projects/58b309ee1304cc0500deaccc/badge?branch=master)](https://app.shippable.com/projects/58b309ee1304cc0500deaccc)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
 
